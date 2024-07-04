@@ -11,25 +11,25 @@ Console.WriteLine("[S]ubtract");
 Console.WriteLine("[M]ultiply");
 
 string selectedOption = Console.ReadLine();
-if (selectedOption == "A") 
+if (string.Equals(selectedOption.ToUpper(), "A")) 
 {
     int result = firstNumber + secondNumber;
     Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
     Console.ReadLine();
 } 
-else if (selectedOption == "S") 
+else if (string.Equals(selectedOption.ToUpper(), "S")) 
 {
     int result = firstNumber - secondNumber;
     Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
     Console.ReadLine();
 }
-else if (selectedOption == "M") 
+else if (string.Equals(selectedOption.ToUpper(), "M")) 
 {
     int result = firstNumber * secondNumber;
     Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
     Console.ReadLine();
 }
-else 
+else    
 {
     Console.WriteLine("Invalid Option");
     Console.ReadLine();
