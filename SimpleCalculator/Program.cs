@@ -14,19 +14,19 @@ string selectedOption = Console.ReadLine();
 if (string.Equals(selectedOption.ToUpper(), "A")) 
 {
     int result = firstNumber + secondNumber;
-    Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
+    Console.WriteLine($"{firstNumber} + {secondNumber} = {result}");
     Console.ReadLine();
 } 
 else if (string.Equals(selectedOption.ToUpper(), "S")) 
 {
     int result = firstNumber - secondNumber;
-    Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
+    Console.WriteLine($"{firstNumber} - {secondNumber} = {result}");
     Console.ReadLine();
 }
 else if (string.Equals(selectedOption.ToUpper(), "M")) 
 {
     int result = firstNumber * secondNumber;
-    Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
+    Console.WriteLine($"{firstNumber} * {secondNumber} = {result}");
     Console.ReadLine();
 }
 else    
