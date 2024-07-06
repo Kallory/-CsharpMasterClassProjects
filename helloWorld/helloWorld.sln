@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "..\Calculator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "..\SimpleCalculator\SimpleCalculator.csproj", "{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funWithLists", "..\funWithLists\funWithLists.csproj", "{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListConsole", "..\TodoListConsole\TodoListConsole.csproj", "{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

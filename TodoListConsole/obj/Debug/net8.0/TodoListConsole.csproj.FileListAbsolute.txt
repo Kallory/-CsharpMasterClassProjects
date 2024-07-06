@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\bin\Debug\net8.0\TodoListConsole.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\bin\Debug\net8.0\TodoListConsole.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\bin\Debug\net8.0\TodoListConsole.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\bin\Debug\net8.0\TodoListConsole.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\bin\Debug\net8.0\TodoListConsole.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\refint\TodoListConsole.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\TodoListConsole.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\TodoListConsole\obj\Debug\net8.0\ref\TodoListConsole.dll
