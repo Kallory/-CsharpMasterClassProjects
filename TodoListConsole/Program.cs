@@ -1,9 +1,13 @@
-﻿
+﻿using System.Collections;
+
+List<string> todoList = new List<string>();
+todoList.Add("test");
+
 GreetUser();
 DisplayMainList();
 string input = ReadInputMainList();
 
-
+ProcessInputMainList(input);
 Console.ReadLine();
 
 
@@ -24,4 +28,46 @@ string ReadInputMainList() {
     return input;
 }
 
-int RegisterInput
+void ProcessInputMainList(string input) {
+    bool isExit = false;
+    do {
+        if (string.Equals(input.ToUpper(), "S")) {
+            ViewList();
+            DisplayMainList();
+            input = ReadInputMainList();
+        } else if (string.Equals(input.ToUpper(), "A")) {
+            AddItemToList();
+        } else if (string.Equals(input.ToUpper(), "R")) {
+            RemoveItemFromList();
+        } else if (string.Equals(input.ToUpper(), "E")) {
+            ExitApp();
+            isExit = true;
+        } else {
+            HandleInvalidInput();
+        }
+    } while (isExit == false);
+}
+
+void ViewList() {
+    foreach (string item in todoList) {
+        Console.WriteLine($"{item}");
+    }
+    Console.ReadLine();
+}
+void AddItemToList() {
+    throw new NotImplementedException();
+}
+
+void RemoveItemFromList() {
+    throw new NotImplementedException();
+}
+
+void ExitApp() {
+    throw new NotImplementedException();
+}
+
+void HandleInvalidInput() {
+    throw new NotImplementedException();
+}
+
+
