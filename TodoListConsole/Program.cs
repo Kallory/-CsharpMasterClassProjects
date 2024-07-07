@@ -42,6 +42,8 @@ void ProcessInputMainList(string input) {
             input = ReadInputMainList();
         } else if (string.Equals(input.ToUpper(), "R")) {
             RemoveItemFromList();
+            DisplayMainList();
+            input = ReadInputMainList();
         } else if (string.Equals(input.ToUpper(), "E")) {
             ExitApp();
             isExit = true;
@@ -65,6 +67,19 @@ void ViewList() {
     }
 }
 
+void ViewListForRemoveItem() {
+    if (todoList.Count() > 0) {
+        Console.WriteLine();
+        foreach (string item in todoList) {
+            Console.WriteLine($"{todoList.IndexOf(item) + 1}) {item}");
+        }
+    } else {
+        Console.WriteLine("Empty list!");
+        PressEnterToContinue();
+        Console.WriteLine();
+    }
+}
+
 void AddItemToList() {    
     Console.WriteLine("Type Item to add to list: ");
     string inputAddItem = Console.ReadLine();
@@ -80,7 +95,27 @@ void AddItemToList() {
 }
 
 void RemoveItemFromList() {
-    throw new NotImplementedException();
+    ViewListForRemoveItem();
+    if (todoList.Count() > 0) {
+        Console.WriteLine("Type index of the item you'd like to remove and press enter: ");
+        var inputRemoveItem = Console.ReadLine();
+        bool isValidNumber = int.TryParse(inputRemoveItem, out int number);
+        bool isValidBounds = CheckIndexBounds(inputRemoveItem);
+
+        if (isValidNumber && isValidBounds) {
+            string itemToBeRemoved = todoList[int.Parse(inputRemoveItem) - 1];
+            todoList.RemoveAt(int.Parse(inputRemoveItem) - 1);
+            Console.WriteLine($"{itemToBeRemoved} removed");
+        } else if (!isValidNumber) {
+            Console.WriteLine("Please enter a number");
+        } else if (!isValidBounds) {
+            Console.WriteLine("Please enter a number within the bounds of the list");
+        }
+    }
+}
+
+bool CheckIndexBounds(string inputRemoveItem) {
+    return int.Parse(inputRemoveItem) - 1 < todoList.Count() && int.Parse(inputRemoveItem) > 0;
 }
 
 void ExitApp() {
