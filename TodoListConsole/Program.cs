@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 
 List<string> todoList = new List<string>();
-todoList.Add("test");
+// todoList.Add("test");
 
 GreetUser();
 DisplayMainList();
@@ -52,13 +52,19 @@ void ProcessInputMainList(string input) {
 }
 
 void ViewList() {
-    Console.WriteLine();
-    foreach (string item in todoList) {
-        Console.WriteLine($"{item}");
+    if (todoList.Count() > 0) {
+        Console.WriteLine();
+        foreach (string item in todoList) {
+            Console.WriteLine($"{todoList.IndexOf(item) + 1}) {item}");
+        }
+        PressEnterToContinue();
+    } else {
+        Console.WriteLine("Empty list!");
+        PressEnterToContinue();
+        Console.WriteLine();
     }
-    Console.WriteLine("Press enter to continue");
-    Console.ReadLine();
 }
+
 void AddItemToList() {    
     Console.WriteLine("Type Item to add to list: ");
     string inputAddItem = Console.ReadLine();
@@ -70,8 +76,7 @@ void AddItemToList() {
 
     todoList.Add(inputAddItem);
     Console.WriteLine($"{inputAddItem} added");
-    Console.WriteLine("Press Enter to continue");
-    Console.ReadLine();
+    PressEnterToContinue();
 }
 
 void RemoveItemFromList() {
@@ -86,4 +91,7 @@ void HandleInvalidInput() {
     throw new NotImplementedException();
 }
 
-
+static void PressEnterToContinue() {
+    Console.WriteLine("Press enter to continue");
+    Console.ReadLine();
+}
