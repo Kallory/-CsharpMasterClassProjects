@@ -49,6 +49,8 @@ void ProcessInputMainList(string input) {
             isExit = true;
         } else {
             HandleInvalidInput();
+            DisplayMainList();
+            input = ReadInputMainList();
         }
     } while (isExit == false);
 }
@@ -119,11 +121,12 @@ bool CheckIndexBounds(string inputRemoveItem) {
 }
 
 void ExitApp() {
-    throw new NotImplementedException();
+    Environment.Exit(0);
 }
 
 void HandleInvalidInput() {
-    throw new NotImplementedException();
+    Console.WriteLine("Invalid input");
+    Console.WriteLine();
 }
 
 static void PressEnterToContinue() {
