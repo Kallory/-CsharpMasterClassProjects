@@ -5,9 +5,9 @@ todoList.Add("test");
 
 GreetUser();
 DisplayMainList();
-string input = ReadInputMainList();
+string inputMainList = ReadInputMainList();
 
-ProcessInputMainList(input);
+ProcessInputMainList(inputMainList);
 Console.ReadLine();
 
 
@@ -21,6 +21,7 @@ void DisplayMainList() {
     Console.WriteLine("[A]dd a todo");
     Console.WriteLine("[R]emove a todo");
     Console.WriteLine("[E]xit");
+    Console.WriteLine();
 }
 
 string ReadInputMainList() {
@@ -37,6 +38,8 @@ void ProcessInputMainList(string input) {
             input = ReadInputMainList();
         } else if (string.Equals(input.ToUpper(), "A")) {
             AddItemToList();
+            DisplayMainList();
+            input = ReadInputMainList();
         } else if (string.Equals(input.ToUpper(), "R")) {
             RemoveItemFromList();
         } else if (string.Equals(input.ToUpper(), "E")) {
@@ -49,13 +52,26 @@ void ProcessInputMainList(string input) {
 }
 
 void ViewList() {
+    Console.WriteLine();
     foreach (string item in todoList) {
         Console.WriteLine($"{item}");
     }
+    Console.WriteLine("Press enter to continue");
     Console.ReadLine();
 }
-void AddItemToList() {
-    throw new NotImplementedException();
+void AddItemToList() {    
+    Console.WriteLine("Type Item to add to list: ");
+    string inputAddItem = Console.ReadLine();
+
+    while (inputAddItem.Length < 1) {
+        Console.WriteLine("Bad input");
+        inputAddItem = Console.ReadLine();
+    }
+
+    todoList.Add(inputAddItem);
+    Console.WriteLine($"{inputAddItem} added");
+    Console.WriteLine("Press Enter to continue");
+    Console.ReadLine();
 }
 
 void RemoveItemFromList() {
