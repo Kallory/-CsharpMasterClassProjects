@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("funWithLists")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b022b8c21da74a3d0909f8bae13abfcc1b7d8ec0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cad2232e1bc15e1f64d21b3bb8c448f20a79ba61")]
 [assembly: System.Reflection.AssemblyProductAttribute("funWithLists")]
 [assembly: System.Reflection.AssemblyTitleAttribute("funWithLists")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
