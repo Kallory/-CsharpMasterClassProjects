@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\bin\Debug\net8.0\DiceRollProjectCSharpMasterClass.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\bin\Debug\net8.0\DiceRollProjectCSharpMasterClass.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\bin\Debug\net8.0\DiceRollProjectCSharpMasterClass.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\bin\Debug\net8.0\DiceRollProjectCSharpMasterClass.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\bin\Debug\net8.0\DiceRollProjectCSharpMasterClass.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\refint\DiceRollProjectCSharpMasterClass.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\DiceRollProjectCSharpMasterClass.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\DiceRollProjectCSharpMasterClass\obj\Debug\net8.0\ref\DiceRollProjectCSharpMasterClass.dll

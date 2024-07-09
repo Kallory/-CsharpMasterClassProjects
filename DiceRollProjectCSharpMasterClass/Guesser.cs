@@ -1,13 +1,19 @@
 ﻿namespace DiceRollProjectCSharpMasterClass {
     public class Guesser {
-        private Dice _dice;
+
+        private GuessController guessController;
 
         public Guesser() {
-            _dice = new Dice();
+            this.GuessController = new GuessController();
         }
 
-        public int DiceRoll() {
-            return _dice.Roll();
+        internal GuessController GuessController { get => guessController; set => guessController = value; }
+
+        public void StartGame() {
+            GuessController.DiceRoll();
+            Console.WriteLine("Roll is: " + GuessController.DiceRoll());
+            Console.WriteLine(GuessController.PromptForGuess());
+            Console.ReadLine();
         }
     }
 }

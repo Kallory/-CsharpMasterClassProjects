@@ -3,7 +3,7 @@
         public Dice() {
         }
 
-        public int DiceRoll() {
+        public int Roll() {
             return 1;
         }
     }

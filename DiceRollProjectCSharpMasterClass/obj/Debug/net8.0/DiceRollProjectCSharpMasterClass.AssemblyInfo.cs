@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiceRollProjectCSharpMasterClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3996a080b493d219b55faa3576d9a63680169ee6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1bc8d8507e4bb1c60454d3f7239f302f937ffbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiceRollProjectCSharpMasterClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiceRollProjectCSharpMasterClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
