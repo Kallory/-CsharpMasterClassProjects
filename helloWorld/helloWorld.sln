@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funWithLists", "..\funWithL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListConsole", "..\TodoListConsole\TodoListConsole.csproj", "{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopBasics", "..\oopBasics\oopBasics.csproj", "{10229240-141B-4558-89CC-C69C02790ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10229240-141B-4558-89CC-C69C02790ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10229240-141B-4558-89CC-C69C02790ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10229240-141B-4558-89CC-C69C02790ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10229240-141B-4558-89CC-C69C02790ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

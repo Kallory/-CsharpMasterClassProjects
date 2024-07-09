@@ -1,0 +1,52 @@
+dice roll guesser
+---------------
+
+actors
+-------------
+user
+
+usecases
+----------------
+The system shall generate a dice roll 1-6 behind the scenes
+The system shall prompt the user for a guess
+The system shall accept an input from the user for a guess
+The system shall validate the input
+The system shall compare the user input with the generated dice roll
+The system shall display feedback to the user
+
+Entities
+-----------
+Dice          only talks with guess controller
+User          only talks with guess controller
+Guesses       only talks with guess controller
+
+Boundaries
+------------
+Guesser        actor only talks with this class
+
+Controllers
+------------
+Guess Controller      Guesser class talks to this controller, vice versa, talks with entity classes
+			does not talk with actors
+
+
+
+Actors can only talk to boundary objects.
+Boundary objects can only talk to controllers and actors.
+Entity objects can only talk to controllers.
+Controllers can communicate with boundary objects, entity objects, and other controllers, but not directly with actors.
+
+Users talk to guesser class which talks to guess controller which then talks to entity classes
+
+
+- The system shall generate a dice roll 1-6 behind the scenes - RollDice() shall belong to Dice class, gets called by Guess Controller. NumGuesses Shall be a property of the User, to practice scaleability and allow many users. 
+- The system shall prompt the user for a guess - PromptForGuess() shall belong to Guesses Class, gets called by Guess Controller
+- The system shall accept an input from the user for a guess - same as above
+- The system shall validate the input - Internal private method ValidateGuess() inside Guesses class
+- The system shall compare the user input with the generated dice roll - CompareGuess() inside Guesses class, called by Guess Controller
+- The system shall display feedback to the user - Part of the Guesses Class, called by Guess Controller.
+
+bare bones start to finish plan
+- Implement RollDice() and display it to verify it works in Dice class (will rename to Roll so can call, Dice.Roll();
+- Implement PromptForGuess() with the answer being shown first, for testing purposes, in the Guesses Class, don't validate or compare yet
+- Implement Guesser boundary class to talk to controller. So main method will create an instance of Guesser and then we'll have stub/debugging info to verify everything works up to this point and have a bare bones start to finish program.
