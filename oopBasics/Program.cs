@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Coding.Exercise {
     public class HotelBooking {
@@ -12,4 +13,25 @@ namespace Coding.Exercise {
             EndDate = StartDate.AddDays(lengthOfStayInDays);
         }
     }
+
+    public class Order {
+        public string Item { get; }
+        public DateTime Date {
+            get { return Date; }
+            set {
+                if (Date.Year == 2024) {
+                    Date = value;
+                }
+            }
+        }
+
+
+        public Order(string item, DateTime date) {
+            Item = item;
+            Date = date;
+        }
+
+    }
+
+
 }
