@@ -1,3 +1,119 @@
+Model:
+Dice
+Attributes:
+- currentRoll: int
+
+Methods:
+- Roll(): int
+
+Game
+Attributes:
+- targetNumber: int
+- attemptsLeft: int
+- maxAttempts: int = 3
+
+Methods:
+- InitializeGame(): void
+- CheckGuess(int guess): bool
+- IsGameOver(): bool
+
+-------------------------------
+
+View:
+GameView
+Methods:
+- DisplayWelcomeMessage(): void
+- DisplayPromptForGuess(): void
+- DisplayWinMessage(): void
+- DisplayLoseMessage(): void
+- DisplayWrongNumberMessage(): void
+- DisplayInvalidInputMessage(): void
+ 
+ ------------------------------------
+
+ Controller:
+ GameController
+Attributes:
+- game: Game
+- dice: Dice
+
+Methods:
+- Start(): void
+- HandleGuess(int guess): void
+- HandleInvalidInput(): void
+-------------------------------------------
+
+
+
+More details:
+Main()
+- Initialize GameController
+- Call GameController.Start()
+
+-----------------------------------------
+
+GameController():
+Attributes:
+- game: Game
+- dice: Dice
+- view: GameView
+
+Methods:
+- Start()
+  - Initialize game and dice
+  - Call view.DisplayWelcomeMessage()
+  - Call game.initializeGame()
+  - Roll the dice and store the result in game.targetNumber
+  - Loop through user attempts (3 tries)
+    - Call view.DisplayPromptForGuess()
+    - Capture user input
+    - Validate user input
+    - Call game.CheckGuess(userInput)
+    - If guess is correct, call view.DisplayWinMessage() and exit
+    - If guess is incorrect and attempts remain, call view.DisplayWrongNumberMessage()
+    - If guess is incorrect and no attempts remain, call view.DisplayLoseMessage() and exit
+- HandleInvalidInput()
+  - Call view.DisplayInvalidInputMessage()
+
+  -----------------------------------------------------------------------------------------
+
+  Game Model:
+Attributes:
+- targetNumber: int
+- attemptsLeft: int = 3
+- maxAttempts: int = 3
+
+Methods:
+- initializeGame()
+  - Initialize attemptsLeft to maxAttempts
+- CheckGuess(int guess): bool
+  - Return true if guess equals targetNumber, false otherwise
+- IsGameOver(): bool
+  - Return true if attemptsLeft is 0, false otherwise
+
+  ------------------------------------------------------------------------
+
+  GameView():
+  Methods:
+- DisplayWelcomeMessage()
+  - Print welcome message to the console
+- DisplayPromptForGuess()
+  - Print prompt for user input
+- DisplayWinMessage()
+  - Print win message to the console
+- DisplayLoseMessage()
+  - Print lose message to the console
+- DisplayWrongNumberMessage()
+  - Print wrong number message to the console
+- DisplayInvalidInputMessage()
+  - Print invalid input message to the console
+
+
+
+
+
+The below is what was used originally with the idea of using the ECB pattern - Entity, Controller, Boundary. 
+
 dice roll guesser
 ---------------
 
@@ -49,4 +165,4 @@ Users talk to guesser class which talks to guess controller which then talks to 
 bare bones start to finish plan
 - Implement RollDice() and display it to verify it works in Dice class (will rename to Roll so can call, Dice.Roll();
 - Implement PromptForGuess() with the answer being shown first, for testing purposes, in the Guesses Class, don't validate or compare yet
-- Implement Guesser boundary class to talk to controller. So main method will create an instance of Guesser and then we'll have stub/debugging info to verify everything works up to this point and have a bare bones start to finish program.
+- Implement Guesser boundary class to talk to controller. So main method will create an instance of Guesser and then we'll have stub/debugging info to verify everything works up to this point and have a bare bones start to finish program
