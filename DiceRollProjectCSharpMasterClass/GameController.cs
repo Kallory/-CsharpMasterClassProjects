@@ -9,7 +9,9 @@ namespace DiceRollProjectCSharpMasterClass {
             this.gameDice = new Dice();
             this.view = new GameView();
 
+            gameModel.InitializeGame();
             view.DisplayWelcomeMessage();
+
             int rolledNumber = gameDice.Roll();
             string toExit = Console.ReadLine();
 
