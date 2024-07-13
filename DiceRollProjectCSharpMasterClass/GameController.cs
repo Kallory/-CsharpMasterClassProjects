@@ -14,7 +14,7 @@ namespace DiceRollProjectCSharpMasterClass {
             view.DisplayWelcomeMessage();
 
             gameModel.TargetNumber = gameDice.Roll();
-            Console.WriteLine("DEBUGGING: ROLLED NUMBER: " + gameModel.TargetNumber);
+            // Console.WriteLine("DEBUGGING: ROLLED NUMBER: " + gameModel.TargetNumber);
 
 
             while (!gameModel.IsGameOver()) {
@@ -39,15 +39,6 @@ namespace DiceRollProjectCSharpMasterClass {
                     Environment.Exit(0);
                 }
             }
-
-            //string toExit = Console.ReadLine();
-
-
-            //while (!(string.Equals(toExit, "e"))) {
-            //    rolledNumber = gameDice.Roll();
-            //    
-            //    toExit = Console.ReadLine();
-            //}
 
             view.DisplayLoseMessage();
             Console.ReadLine();
