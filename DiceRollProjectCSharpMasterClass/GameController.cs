@@ -11,7 +11,13 @@ namespace DiceRollProjectCSharpMasterClass {
 
             view.DisplayWelcomeMessage();
             int rolledNumber = gameDice.Roll();
-            Console.WriteLine("DEBUGGING: ROLLED NUMBER: " + rolledNumber);
+            string toExit = Console.ReadLine();
+
+            while (!(string.Equals(toExit, "e"))) {
+                rolledNumber = gameDice.Roll();
+                Console.WriteLine("DEBUGGING: ROLLED NUMBER: " + rolledNumber);
+                toExit = Console.ReadLine();
+            }
 
             Console.ReadLine();
 
