@@ -1,9 +1,9 @@
 ﻿
 namespace DiceRollProjectCSharpMasterClass {
     internal class GameController {
-        GameModel gameModel;
-        Dice gameDice;
-        GameView view;
+        GameModel? gameModel;
+        Dice? gameDice;
+        GameView? view;
         int numberGuessed;
         internal void Start() {
             this.gameModel = new GameModel();
@@ -22,12 +22,12 @@ namespace DiceRollProjectCSharpMasterClass {
                 view.DisplayPromptForGuess();
                 bool isNumber = int.TryParse(Console.ReadLine(), out int result);
 
-                CheckIsNumber(ref isNumber, ref result);
+                CheckIsNumber(ref isNumber, ref result, GetView());
 
                 while (!gameModel.IsValidGuess(numberGuessed)) {
                     view.DisplayGuessNotInRangeMsg(gameModel.MIN_GUESS, gameModel.MAX_GUESS);
                     isNumber = int.TryParse(Console.ReadLine(), out result);
-                    CheckIsNumber(ref isNumber, ref result);
+                    CheckIsNumber(ref isNumber, ref result, GetView());
                 }
 
                 if (!gameModel.IsCorrectGuess(numberGuessed)) {
@@ -45,7 +45,11 @@ namespace DiceRollProjectCSharpMasterClass {
 
         }
 
-        private void CheckIsNumber(ref bool isNumber, ref int result) {
+        private GameView? GetView() {
+            return view;
+        }
+
+        private void CheckIsNumber(ref bool isNumber, ref int result, GameView? view) {
             while (!isNumber) {
                 view.DisplayNotANumberMsg();
                 isNumber = int.TryParse(Console.ReadLine(), out result);
