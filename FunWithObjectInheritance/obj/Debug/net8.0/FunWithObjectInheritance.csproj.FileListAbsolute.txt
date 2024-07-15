@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\bin\Debug\net8.0\FunWithObjectInheritance.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\bin\Debug\net8.0\FunWithObjectInheritance.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\bin\Debug\net8.0\FunWithObjectInheritance.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\bin\Debug\net8.0\FunWithObjectInheritance.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\bin\Debug\net8.0\FunWithObjectInheritance.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\refint\FunWithObjectInheritance.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\FunWithObjectInheritance.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithObjectInheritance\obj\Debug\net8.0\ref\FunWithObjectInheritance.dll

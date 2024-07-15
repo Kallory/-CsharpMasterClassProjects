@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloWorld", "helloWorld.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "..\Calculator\Calculator.csproj", "{2AAD75AD-81D0-4793-8DD4-643C105E0E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "..\SimpleCalculator\SimpleCalculator.csproj", "{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "..\SimpleCalculator\SimpleCalculator.csproj", "{CD0474FD-9391-45CA-9F8A-ADFA59322CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funWithLists", "..\funWithLists\funWithLists.csproj", "{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "funWithLists", "..\funWithLists\funWithLists.csproj", "{8E6853A0-2A68-47B1-8C2F-5A07F8594F73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListConsole", "..\TodoListConsole\TodoListConsole.csproj", "{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListConsole", "..\TodoListConsole\TodoListConsole.csproj", "{2C99B29E-5548-4085-A03F-C0D2ED0ED44C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopBasics", "..\oopBasics\oopBasics.csproj", "{10229240-141B-4558-89CC-C69C02790ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oopBasics", "..\oopBasics\oopBasics.csproj", "{10229240-141B-4558-89CC-C69C02790ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObjectInheritance", "..\FunWithObjectInheritance\FunWithObjectInheritance.csproj", "{14B50953-5A4A-42A6-9492-9BB44DA77690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{10229240-141B-4558-89CC-C69C02790ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10229240-141B-4558-89CC-C69C02790ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10229240-141B-4558-89CC-C69C02790ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
