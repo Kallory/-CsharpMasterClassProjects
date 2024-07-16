@@ -5,11 +5,13 @@ Car car = new Car();
 // CarPart carPart = new CarPart();
 //car.AddCarPart(carPart);
 
-CarPart engine6000 = new Engine();
+Engine engine6000 = new Engine(500);
 car.AddCarPart(engine6000);
+engine6000.SomeInt();
 
 //Console.WriteLine(carPart.partName);
-Console.WriteLine(((CarPart)engine6000).partName);
+Console.WriteLine(((CarPart)engine6000).ToString());
+Console.WriteLine(engine6000.GetCost());
 Console.ReadLine();
 
 public class Car {
@@ -19,10 +21,32 @@ public class Car {
     }
 }
 
-public abstract class CarPart {
-    public virtual string partName => "Some part name";
+public class CarPart {
+    protected int Cost { get; set; }
+    protected CarPart(int cost)
+    {
+        
+    }
+    protected virtual string partName => "Some part name";
+    public override string ToString() {
+        return $"{partName}";
+    }
+
+    public int SomeInt() { return 1; }
 }
 
 public class Engine : CarPart {
-    public override string partName => "I'm an engine";
+    public Engine(int cost) : base(cost) {
+        Cost = cost;
+    }
+
+    protected override string partName => "engine";
+    public override string ToString() {
+        return $"This part is called {partName} from base class abstraction: {base.partName}";
+    }
+
+    public string GetCost() {
+        return $"{base.partName} called {this.partName} costs {this.Cost}";
+    }
+
 }
