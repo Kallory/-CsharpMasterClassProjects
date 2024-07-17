@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunWithObjectInheritance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f02684942ae4f60a98ce514b0b253de0e6a2f07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a650c2699f98ff8375f9e4a248d6d70c84c6acaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunWithObjectInheritance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunWithObjectInheritance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

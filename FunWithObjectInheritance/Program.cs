@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Add parts: ");
+//Console.WriteLine("Add parts: ");
 
 Car car = new Car();
 // CarPart carPart = new CarPart();
@@ -10,9 +10,25 @@ car.AddCarPart(engine6000);
 engine6000.SomeInt();
 
 //Console.WriteLine(carPart.partName);
-Console.WriteLine(((CarPart)engine6000).ToString());
-Console.WriteLine(engine6000.GetCost());
+//Console.WriteLine(((CarPart)engine6000).ToString());
+//Console.WriteLine(engine6000.GetCost());
+
+PartTest(engine6000);
+
 Console.ReadLine();
+
+void PartTest (CarPart carpart) {
+    Console.WriteLine(carpart.ToString());
+}
+
+public enum Season {
+    Spring,
+    Summer,
+    Autumn,
+    Winter,
+    None,
+    PLASMA
+}
 
 public class Car {
     private List<CarPart> _carParts = new List<CarPart>();
