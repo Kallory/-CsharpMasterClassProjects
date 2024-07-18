@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\bin\Debug\net8.0\FunWithAbstractClasses.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\bin\Debug\net8.0\FunWithAbstractClasses.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\bin\Debug\net8.0\FunWithAbstractClasses.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\bin\Debug\net8.0\FunWithAbstractClasses.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\bin\Debug\net8.0\FunWithAbstractClasses.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\refint\FunWithAbstractClasses.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\FunWithAbstractClasses.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithAbstractClasses\obj\Debug\net8.0\ref\FunWithAbstractClasses.dll

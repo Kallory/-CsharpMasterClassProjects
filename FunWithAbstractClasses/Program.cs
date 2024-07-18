@@ -1,14 +1,24 @@
-﻿using System;
+﻿using Coding.Exercise;
+using System;
+using System.Runtime.CompilerServices;
 
-
+Console.WriteLine("hi");
+List<Shape> shapes = new List<Shape>();
+shapes.Add(new Rectangle(3, 4));
+shapes.Add(new Square(4));
+ExerciseShapes.GetShapesAreas(shapes);
+Console.ReadLine();
 
 namespace Coding.Exercise {
+
+
     public static class ExerciseShapes {
         public static List<double> GetShapesAreas(List<Shape> shapes) {
             var result = new List<double>();
 
             foreach (var shape in shapes) {
-                result.Add(shape.CalculateArea());
+                // result.Add(shape.CalculateArea());
+                shape.describe();
             }
 
             return result;
@@ -16,7 +26,13 @@ namespace Coding.Exercise {
     }
 
     public abstract class Shape {
-        public abstract List<Double> CalculateArea();
+        public string Name { get; set; }
+        public abstract double CalculateArea();
+
+        public string describe() {
+            Console.WriteLine(this.Name + " from abstract class!");
+            return this.Name; 
+        }
     }
 
     public class Square : Shape {
@@ -26,8 +42,8 @@ namespace Coding.Exercise {
             Side = side;
         }
 
-        public override List<Double> CalculateArea() {
-            return new List<Double>();
+        public override double CalculateArea() {
+            return Side * Side;
 
         }
     }
@@ -42,8 +58,8 @@ namespace Coding.Exercise {
             Height = height;
         }
 
-        public override List<Double> CalculateArea() {
-            return new List<Double>();
+        public override double CalculateArea() {
+            return Width * Height;
 
         }
     }
@@ -55,8 +71,8 @@ namespace Coding.Exercise {
             Radius = radius;
         }
 
-        public override List<Double> CalculateArea() {
-            return new List<Double>();
+        public override double CalculateArea() {
+            return 2 * Math.PI * Radius;
 
         }
     }

@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\bin\Debug\net8.0\MethodExtensionExercise.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\bin\Debug\net8.0\MethodExtensionExercise.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\bin\Debug\net8.0\MethodExtensionExercise.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\bin\Debug\net8.0\MethodExtensionExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\bin\Debug\net8.0\MethodExtensionExercise.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\refint\MethodExtensionExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\MethodExtensionExercise.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\MethodExtensionExercise\obj\Debug\net8.0\ref\MethodExtensionExercise.dll

@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oopBasics", "..\oopBasics\o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObjectInheritance", "..\FunWithObjectInheritance\FunWithObjectInheritance.csproj", "{14B50953-5A4A-42A6-9492-9BB44DA77690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithAbstractClasses", "..\FunWithAbstractClasses\FunWithAbstractClasses.csproj", "{DF181E81-A73D-4EC7-A1AC-422BB39945F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExtensionExercise", "..\MethodExtensionExercise\MethodExtensionExercise.csproj", "{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B50953-5A4A-42A6-9492-9BB44DA77690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF181E81-A73D-4EC7-A1AC-422BB39945F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF181E81-A73D-4EC7-A1AC-422BB39945F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF181E81-A73D-4EC7-A1AC-422BB39945F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF181E81-A73D-4EC7-A1AC-422BB39945F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

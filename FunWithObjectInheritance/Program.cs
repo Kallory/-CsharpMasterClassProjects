@@ -21,6 +21,12 @@ void PartTest (CarPart carpart) {
     Console.WriteLine(carpart.ToString());
 }
 
+static string Describe(object someObject) {
+    if (someObject is int || someObject is double || someObject is decimal) {
+        return $"{someObject.GetType()} of value {someObject}";
+    } else return null;
+}
+
 public enum Season {
     Spring,
     Summer,
