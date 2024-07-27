@@ -1,0 +1,14 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\refint\ExceptionHandling.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\ExceptionHandling\obj\Debug\net8.0\ref\ExceptionHandling.dll
