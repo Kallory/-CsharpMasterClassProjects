@@ -10,12 +10,10 @@ public class Model {
         while (!IsHappyFileName) {
             input = Console.ReadLine();
             if (!IsNotNullOrEmpty(input)) {
-                Console.WriteLine("Error, null input");
                 continue;
             }
 
             if (!FileNameExists(input)) {
-                Console.WriteLine("Error, file not found");
                 continue;
             }
 
@@ -25,15 +23,16 @@ public class Model {
     }
 
     private bool FileNameExists(string fileName) {
-        if (File.Exists(fileName)) {
-            return true;
+        if (!File.Exists(fileName)) {
+            Console.WriteLine("Filename not found, type a valid filename: ");
+            return false;
         } 
-        return false;
+        return true;
     }
 
     private bool IsNotNullOrEmpty(string input) {
         if (string.IsNullOrEmpty(input)) {
-            Console.WriteLine("Error: Input is null or empty");
+            Console.WriteLine("Error: Input is null or empty, type a valid filename: ");
             return false;
         }
         return true;
