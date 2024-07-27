@@ -13,17 +13,19 @@ public class GameDataParser {
         messages.DisplayGreeting();
         messages.DisplayPromptForFileName();
 
-        string fileName = model.PromptForFileName();
-        
+        string fileName = model.InputForFileName();
+        Console.WriteLine("Filename : " + fileName);
+
 
         // Validate Filename
-        model.IsNotNull(fileName);
-        model.IsNotEmpty(fileName);
-        model.FileNameExists(fileName);
+        
+        //model.FileNameExists(fileName);
 
-        // checking if JSON is valid
-        model.IsValidJSON(fileName);
+        //// checking if JSON is valid
+        //model.IsValidJSON(fileName);
 
-        model.HasGamesInCollection(List < GameName > Games);
+        //model.HasGamesInCollection(List < GameName > Games);
+
+        //model.Log();
     }
 }
