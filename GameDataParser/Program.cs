@@ -4,6 +4,8 @@ gameDataParser.Run();
 Console.ReadLine();
 public class GameDataParser {
     private Messages messages = new Messages();
+
+
     private Model model = new Model();
     public GameDataParser() {
 
@@ -14,13 +16,19 @@ public class GameDataParser {
         messages.DisplayPromptForFileName();
 
         string fileName = model.InputForFileName();
+        
         Console.WriteLine("Filename : " + fileName);
 
+        // checking if JSON is valid
+        if (model.IsValidJSON(fileName)) {
+            List<GameDataAsJSON> gamesList = model.ReadInJSONFromFile(fileName);
+            // Console.WriteLine("GamesList.Title = " +  gamesList.First().Title);
+            if (!model.IsNotEmptyList(gamesList)) {
+                Console.WriteLine("Empty List");
+            }
+        }
 
-        // Validate Filename
 
-        //// checking if JSON is valid
-        //model.IsValidJSON(fileName);
 
         //model.HasGamesInCollection(List < GameName > Games);
 
