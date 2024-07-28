@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\bin\Debug\net8.0\GenericTypesExercise.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\bin\Debug\net8.0\GenericTypesExercise.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\bin\Debug\net8.0\GenericTypesExercise.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\bin\Debug\net8.0\GenericTypesExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\bin\Debug\net8.0\GenericTypesExercise.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\refint\GenericTypesExercise.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\GenericTypesExercise.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\GenericTypesExercise\obj\Debug\net8.0\ref\GenericTypesExercise.dll

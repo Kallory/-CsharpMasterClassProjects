@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoListConsole", "..\TodoL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oopBasics", "..\oopBasics\oopBasics.csproj", "{10229240-141B-4558-89CC-C69C02790ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObjectInheritance", "..\FunWithObjectInheritance\FunWithObjectInheritance.csproj", "{14B50953-5A4A-42A6-9492-9BB44DA77690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithObjectInheritance", "..\FunWithObjectInheritance\FunWithObjectInheritance.csproj", "{14B50953-5A4A-42A6-9492-9BB44DA77690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithAbstractClasses", "..\FunWithAbstractClasses\FunWithAbstractClasses.csproj", "{DF181E81-A73D-4EC7-A1AC-422BB39945F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithAbstractClasses", "..\FunWithAbstractClasses\FunWithAbstractClasses.csproj", "{DF181E81-A73D-4EC7-A1AC-422BB39945F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExtensionExercise", "..\MethodExtensionExercise\MethodExtensionExercise.csproj", "{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodExtensionExercise", "..\MethodExtensionExercise\MethodExtensionExercise.csproj", "{215BF3E9-4DE3-4E9F-95E3-78D478C9A421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExercise", "..\InterfaceExercise\InterfaceExercise.csproj", "{9A7B6AA5-FA1A-4A2E-838C-377E50101941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExercise", "..\InterfaceExercise\InterfaceExercise.csproj", "{9A7B6AA5-FA1A-4A2E-838C-377E50101941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTypesExercise", "..\GenericTypesExercise\GenericTypesExercise.csproj", "{5428516C-9437-4960-820E-6823834C00F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{9A7B6AA5-FA1A-4A2E-838C-377E50101941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7B6AA5-FA1A-4A2E-838C-377E50101941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7B6AA5-FA1A-4A2E-838C-377E50101941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5428516C-9437-4960-820E-6823834C00F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5428516C-9437-4960-820E-6823834C00F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5428516C-9437-4960-820E-6823834C00F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5428516C-9437-4960-820E-6823834C00F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
