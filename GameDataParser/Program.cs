@@ -25,6 +25,8 @@ public class GameDataParser {
             // Console.WriteLine("GamesList.Title = " +  gamesList.First().Title);
             if (!model.IsNotEmptyList(gamesList)) {
                 Console.WriteLine("Empty List");
+            } else {
+                model.PrintGamesList();
             }
         }
 

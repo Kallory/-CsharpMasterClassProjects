@@ -30,19 +30,15 @@ public class Model {
         string json = File.ReadAllText(filename);
 
         try {
-            Games =
-                    JsonSerializer.Deserialize<List<GameDataAsJSON>>(json);
-            foreach (var game in Games) {
-                Console.WriteLine($"{game.Title}");
-                Console.WriteLine($"{game.ReleaseYear}");
-                Console.WriteLine($"{game.Rating}");
-            }
+            Games = JsonSerializer.Deserialize<List<GameDataAsJSON>>(json);
+            
             return Games;
 
         } catch (JsonException ex) {
             Console.WriteLine($"Invalid JSON file, error: {ex.Message}");
+
             string logs = File.ReadAllText("logs.txt");
-            logs += $"[{DateTime.Now}]: Exception Message: {ex.Message}, Stack Trace: {ex.StackTrace} \n";
+            logs += $"[{DateTime.Now}]: Exception in file {filename} \n Exception Message: {ex.Message} \n Stack Trace: {ex.StackTrace}\n\n";
             File.WriteAllText("logs.txt", logs);
             Console.WriteLine("Press any key to exit.");
             Console.ReadLine();
@@ -50,6 +46,14 @@ public class Model {
         }
 
         return new List<GameDataAsJSON>();
+    }
+
+    public void PrintGamesList() {
+        foreach (var game in Games) {
+            Console.WriteLine($"{game.Title}");
+            Console.WriteLine($"{game.ReleaseYear}");
+            Console.WriteLine($"{game.Rating}");
+        }
     }
 
     public bool IsValidJSON(string fileName) {
@@ -84,21 +88,5 @@ public class Model {
         }
 
         return true;
-    }
-}
-
-public class GameDataAsJSON {
-    //"Title": "Stardew Valley",
-    //"ReleaseYear": 2016,
-    //"Rating": 4.9
-
-    public string Title { get; set; }
-    public int ReleaseYear { get; set; }
-    public double Rating { get; set; }
-
-    public GameDataAsJSON(string title, int releaseYear, double rating) {
-        Title = title;
-        ReleaseYear = releaseYear;
-        Rating = rating;
     }
 }
