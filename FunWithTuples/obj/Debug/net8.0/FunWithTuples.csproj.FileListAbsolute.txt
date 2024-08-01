@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\bin\Debug\net8.0\FunWithTuples.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\bin\Debug\net8.0\FunWithTuples.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\bin\Debug\net8.0\FunWithTuples.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\bin\Debug\net8.0\FunWithTuples.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\bin\Debug\net8.0\FunWithTuples.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\refint\FunWithTuples.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\FunWithTuples.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunWithTuples\obj\Debug\net8.0\ref\FunWithTuples.dll
