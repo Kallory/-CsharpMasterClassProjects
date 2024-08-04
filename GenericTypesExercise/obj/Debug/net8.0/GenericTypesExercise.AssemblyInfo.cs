@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenericTypesExercise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d22cac919d1a6c5bea0de02ebba88f1afd583d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9523ae6ed15d44a500c8885642b05559af18c043")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenericTypesExercise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenericTypesExercise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
