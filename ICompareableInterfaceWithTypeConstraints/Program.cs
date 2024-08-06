@@ -18,6 +18,8 @@ internal class Person : IComparable<Person> {
     public int YearOfBirth { get; init; }
 
     public int CompareTo(Person other) {
-        throw new NotImplementedException();
+        if (YearOfBirth < other.YearOfBirth) return 1;
+        else if (YearOfBirth > other.YearOfBirth) return -1;
+        else return 0;
     }
 }
