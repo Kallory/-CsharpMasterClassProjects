@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ICompareableInterfaceWithTypeConstraints")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de364d8d4fb6a28016e5d7f570e08882cad8443f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21be6c8b51edf641b8297a18292412e54045c424")]
 [assembly: System.Reflection.AssemblyProductAttribute("ICompareableInterfaceWithTypeConstraints")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ICompareableInterfaceWithTypeConstraints")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

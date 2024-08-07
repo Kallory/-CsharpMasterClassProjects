@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTypesExercise", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithTuples", "..\FunWithTuples\FunWithTuples.csproj", "{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExerciseTypeConstraintsIComparable", "..\CodeExerciseTypeConstraintsIComparable\CodeExerciseTypeConstraintsIComparable.csproj", "{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICompareableInterfaceWithTypeConstraints", "..\ICompareableInterfaceWithTypeConstraints\ICompareableInterfaceWithTypeConstraints.csproj", "{A943B177-D4C0-41D5-B92C-735805EED98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A943B177-D4C0-41D5-B92C-735805EED98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A943B177-D4C0-41D5-B92C-735805EED98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A943B177-D4C0-41D5-B92C-735805EED98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A943B177-D4C0-41D5-B92C-735805EED98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
