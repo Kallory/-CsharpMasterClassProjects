@@ -15,13 +15,14 @@ var people = new List<Person> {
 people.Sort();
 
 PrintInOrder(10, 5);
+PrintInOrder(people[2], people[0]);
 
 Console.WriteLine("Press any key to exit");
 Console.ReadKey();
 
 
-void PrintInOrder(int first, int second) {
-    if (first > second) Console.WriteLine($"{second} {first}");
+void PrintInOrder<T>(T first, T second) where T: IComparable<T> {
+    if (first.CompareTo(second) > 0) Console.WriteLine($"{second} {first}");
     else Console.WriteLine($"{first} {second}");
 }
 
@@ -36,5 +37,9 @@ internal class Person : IComparable<Person> {
         if (YearOfBirth < other.YearOfBirth) return 1;
         else if (YearOfBirth > other.YearOfBirth) return -1;
         else return 0;
+    }
+
+    public override string ToString() {
+        return $"{Name} born in {YearOfBirth}";
     }
 }
