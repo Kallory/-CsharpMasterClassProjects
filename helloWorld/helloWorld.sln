@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExerciseTypeConstraints
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICompareableInterfaceWithTypeConstraints", "..\ICompareableInterfaceWithTypeConstraints\ICompareableInterfaceWithTypeConstraints.csproj", "{A943B177-D4C0-41D5-B92C-735805EED98A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncsAndActionsLesson", "..\FuncsAndActionsLesson\FuncsAndActionsLesson.csproj", "{D6483DFB-A1D4-48FE-90EE-F48000E4E023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunwithDictionaries", "..\FunwithDictionaries\FunwithDictionaries.csproj", "{8B75E058-D3DD-42F5-8A52-1DA928FC787A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{A943B177-D4C0-41D5-B92C-735805EED98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A943B177-D4C0-41D5-B92C-735805EED98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A943B177-D4C0-41D5-B92C-735805EED98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6483DFB-A1D4-48FE-90EE-F48000E4E023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6483DFB-A1D4-48FE-90EE-F48000E4E023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6483DFB-A1D4-48FE-90EE-F48000E4E023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6483DFB-A1D4-48FE-90EE-F48000E4E023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

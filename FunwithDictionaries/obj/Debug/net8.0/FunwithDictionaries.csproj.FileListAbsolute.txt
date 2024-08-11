@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\bin\Debug\net8.0\FunwithDictionaries.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\bin\Debug\net8.0\FunwithDictionaries.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\bin\Debug\net8.0\FunwithDictionaries.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\bin\Debug\net8.0\FunwithDictionaries.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\bin\Debug\net8.0\FunwithDictionaries.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\refint\FunwithDictionaries.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\FunwithDictionaries.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FunwithDictionaries\obj\Debug\net8.0\ref\FunwithDictionaries.dll

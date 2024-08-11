@@ -1,8 +1,10 @@
 ﻿
-var numbers = new List<int> { 9, 8, 19, 1 };
+var numbers = new List<int> { 9, 7, 19, 1 };
 Func<int, bool> predicateIsLargerThan10 = IsLargerThan10;
 Console.WriteLine("Is any number larger than 10 in the list? " + IsAny(numbers, predicateIsLargerThan10));
-// Console.WriteLine("Is any number larger than 10 in the list? " + IsAny(numbers));
+
+Func<int, bool> predicateIsEven = IsEven;
+Console.WriteLine("Is any number even in the list? " + IsAny(numbers, IsEven));
 Console.ReadKey();
 
 bool IsLargerThan10(int number) {

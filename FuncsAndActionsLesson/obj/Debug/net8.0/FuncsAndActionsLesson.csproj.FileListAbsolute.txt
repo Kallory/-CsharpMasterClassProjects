@@ -1,0 +1,15 @@
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\bin\Debug\net8.0\FuncsAndActionsLesson.exe
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\bin\Debug\net8.0\FuncsAndActionsLesson.deps.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\bin\Debug\net8.0\FuncsAndActionsLesson.runtimeconfig.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\bin\Debug\net8.0\FuncsAndActionsLesson.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\bin\Debug\net8.0\FuncsAndActionsLesson.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.AssemblyInfoInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.AssemblyInfo.cs
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.csproj.CoreCompileInputs.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.sourcelink.json
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\refint\FuncsAndActionsLesson.dll
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.pdb
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\FuncsAndActionsLesson.genruntimeconfig.cache
+C:\Users\kory2\source\repos\CsharpMasterClassProjects\SmallProjects\FuncsAndActionsLesson\obj\Debug\net8.0\ref\FuncsAndActionsLesson.dll
