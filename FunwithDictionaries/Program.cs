@@ -140,15 +140,23 @@ public static class Exercise {
             groupAnimalsByPetType[pet.PetType].Add(pet);
         }
 
+        var result = new Dictionary<PetType, double>();
+
         foreach (var petType in groupAnimalsByPetType) {
+            double biggestWeight = petType.Value[0].Weight;
             foreach (var pet in petType.Value) {
+                if (pet.Weight > biggestWeight) biggestWeight = pet.Weight;
                 Console.WriteLine($"Key: {petType.Key}     Value: {pet.Weight}");
             }
+            result.Add(petType.Key, biggestWeight);
             
         }
 
-
-        return null;
+        Console.WriteLine();
+        foreach (var petType in result) {
+            Console.WriteLine($"Key: {petType.Key}      Value: {petType.Value}");
+        }
+        return result;
     }
 }
 

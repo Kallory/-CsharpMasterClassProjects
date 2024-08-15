@@ -23,17 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodExtensionExercise", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExercise", "..\InterfaceExercise\InterfaceExercise.csproj", "{9A7B6AA5-FA1A-4A2E-838C-377E50101941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTypesExercise", "..\GenericTypesExercise\GenericTypesExercise.csproj", "{5428516C-9437-4960-820E-6823834C00F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTypesExercise", "..\GenericTypesExercise\GenericTypesExercise.csproj", "{5428516C-9437-4960-820E-6823834C00F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithTuples", "..\FunWithTuples\FunWithTuples.csproj", "{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithTuples", "..\FunWithTuples\FunWithTuples.csproj", "{C39B6CE0-D8F5-4C65-807B-E95786A5FA80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExerciseTypeConstraintsIComparable", "..\CodeExerciseTypeConstraintsIComparable\CodeExerciseTypeConstraintsIComparable.csproj", "{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeExerciseTypeConstraintsIComparable", "..\CodeExerciseTypeConstraintsIComparable\CodeExerciseTypeConstraintsIComparable.csproj", "{344468DD-67E4-40D2-8ECF-AC9DB5DA25C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICompareableInterfaceWithTypeConstraints", "..\ICompareableInterfaceWithTypeConstraints\ICompareableInterfaceWithTypeConstraints.csproj", "{A943B177-D4C0-41D5-B92C-735805EED98A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICompareableInterfaceWithTypeConstraints", "..\ICompareableInterfaceWithTypeConstraints\ICompareableInterfaceWithTypeConstraints.csproj", "{A943B177-D4C0-41D5-B92C-735805EED98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncsAndActionsLesson", "..\FuncsAndActionsLesson\FuncsAndActionsLesson.csproj", "{D6483DFB-A1D4-48FE-90EE-F48000E4E023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncsAndActionsLesson", "..\FuncsAndActionsLesson\FuncsAndActionsLesson.csproj", "{D6483DFB-A1D4-48FE-90EE-F48000E4E023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunwithDictionaries", "..\FunwithDictionaries\FunwithDictionaries.csproj", "{8B75E058-D3DD-42F5-8A52-1DA928FC787A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunwithDictionaries", "..\FunwithDictionaries\FunwithDictionaries.csproj", "{8B75E058-D3DD-42F5-8A52-1DA928FC787A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternApplicationandMoreGenerics", "..\StrategyPatternApplicationandMoreGenerics\StrategyPatternApplicationandMoreGenerics.csproj", "{F3E3DF95-C7EF-4916-B6B2-622AD17C2077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B75E058-D3DD-42F5-8A52-1DA928FC787A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E3DF95-C7EF-4916-B6B2-622AD17C2077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E3DF95-C7EF-4916-B6B2-622AD17C2077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E3DF95-C7EF-4916-B6B2-622AD17C2077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E3DF95-C7EF-4916-B6B2-622AD17C2077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
