@@ -1,16 +1,19 @@
-﻿var playerTeamMapping = new Dictionary<string, string>();
+﻿using System.Numerics;
+using System.Runtime.InteropServices;
+
+var playerTeamMapping = new Dictionary<string, FIFA_CODE>();
 List<Player> playerList = new List<Player>();
 
-playerTeamMapping.Add("Lionel Messi", "ARG");
-playerTeamMapping.Add("Gerónimo Rulli", "ARG");
-playerTeamMapping.Add("Emiliano Martínez", "ARG");
-playerTeamMapping.Add("Manuel Neuer", "GER");
-playerTeamMapping.Add("Oliver Baumann", "GER");
-playerTeamMapping.Add("David Ospina", "COL");
-playerTeamMapping.Add("Camilo Vargas", "COL");
-playerTeamMapping.Add("Álvaro Montero", "COL");
-playerTeamMapping.Add("Carlos Cuesta", "COL");
-playerTeamMapping.Add("Jhon Lucumí", "COL");
+playerTeamMapping.Add("Lionel Messi", FIFA_CODE.ARG);
+playerTeamMapping.Add("Gerónimo Rulli", FIFA_CODE.ARG);
+playerTeamMapping.Add("Emiliano Martínez", FIFA_CODE.ARG);
+//playerTeamMapping.Add("Manuel Neuer", "GER");
+//playerTeamMapping.Add("Oliver Baumann", "GER");
+//playerTeamMapping.Add("David Ospina", "COL");
+//playerTeamMapping.Add("Camilo Vargas", "COL");
+//playerTeamMapping.Add("Álvaro Montero", "COL");
+//playerTeamMapping.Add("Carlos Cuesta", "COL");
+//playerTeamMapping.Add("Jhon Lucumí", "COL");
 
 foreach (var playerTeamPair in playerTeamMapping) {
     Console.WriteLine($"Player: {playerTeamPair.Key}       Country: {playerTeamPair.Value}");
@@ -39,11 +42,25 @@ playerList.Add(ÁlvaroMontero);
 playerList.Add(CarlosCuesta);
 playerList.Add(JhonLucumí);
 
-CalculateAvgSalary(playerList);
+//CalculateAvgSalary(playerList);
+
+List<Pet> pets = new();
+pets.Add(new Pet(PetType.Dog, 10));
+pets.Add(new Pet(PetType.Cat, 5));
+pets.Add(new Pet(PetType.Fish, 0.9));
+pets.Add(new Pet(PetType.Dog, 45));
+pets.Add(new Pet(PetType.Cat, 2));
+pets.Add(new Pet(PetType.Fish, 0.02));
+
+Console.WriteLine();
+Exercise.FindMaxWeights(pets);
 
 Dictionary<string, decimal> CalculateAvgSalary(IEnumerable<Player> playerList) {
     // group players by team
     var playersPerTeam = new Dictionary<string, List<Player>>();
+    decimal totalTeamSalary = 0;
+    decimal teamAvgSalary = 0;
+    
 
     // iterate through the collection of employees and add each of them to the list belonging to specific team
     foreach (var player in playerList) {
@@ -57,16 +74,37 @@ Dictionary<string, decimal> CalculateAvgSalary(IEnumerable<Player> playerList) {
         // playersPerTeam[player.TeamName] should return list of players on a specific team, so we add the player the list associated with the
         // key, which in this case is a team name
         playersPerTeam[player.TeamName].Add(player);
+
     }
 
-    return null;
+    var avgSalaryPerTeam = new Dictionary<string, decimal>();
+
+    foreach (var team in playersPerTeam) {
+        decimal counter = 0;
+        foreach (var player in playersPerTeam[team.Key]) {    // could also do playersPerTeam.Value
+            // Console.WriteLine($"{team.Key}: {player.Name}");
+            counter++;  // could also do playersPerTeam.Value.Count
+            totalTeamSalary += player.Salary;
+            
+        }
+        teamAvgSalary = totalTeamSalary / counter;
+        avgSalaryPerTeam.Add(team.Key, teamAvgSalary);
+        totalTeamSalary = 0;
+    }
+
+    foreach (var team in avgSalaryPerTeam) {
+        Console.WriteLine($"{team.Key} {team.Value}");
+    }
+    
+
+    return avgSalaryPerTeam;
 }
 
 Console.WriteLine();
 Console.WriteLine("Press any key to exit.");
 Console.ReadKey();
 
-enum FIFA_CODES {
+enum FIFA_CODE {
     ARG,
     GER,
     COL
@@ -87,3 +125,43 @@ public class Player {
         Salary = salary;
     }
 }
+
+public static class Exercise {
+    public static Dictionary<PetType, double> FindMaxWeights(List<Pet> pets) {
+        //your code goes here
+        // group by animal type
+        var groupAnimalsByPetType = new Dictionary<PetType, List<Pet>>();
+
+        foreach (var pet in pets) {
+            if (!groupAnimalsByPetType.ContainsKey(pet.PetType)) {
+                groupAnimalsByPetType[pet.PetType] = new List<Pet>();
+            }
+
+            groupAnimalsByPetType[pet.PetType].Add(pet);
+        }
+
+        foreach (var petType in groupAnimalsByPetType) {
+            foreach (var pet in petType.Value) {
+                Console.WriteLine($"Key: {petType.Key}     Value: {pet.Weight}");
+            }
+            
+        }
+
+
+        return null;
+    }
+}
+
+public class Pet {
+    public PetType PetType { get; }
+    public double Weight { get; }
+
+    public Pet(PetType petType, double weight) {
+        PetType = petType;
+        Weight = weight;
+    }
+
+    public override string ToString() => $"{PetType}, {Weight} kilos";
+}
+
+public enum PetType { Dog, Cat, Fish }
