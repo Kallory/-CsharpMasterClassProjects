@@ -10,7 +10,7 @@ Print(numbers);
 string userInput = utilityFunctions.GetInput();
 while (string.Equals(userInput, "exit") == false) {
     var filteringStrategy = new FilteringStrategySelector().Select(userInput);
-    List<int> result = new NumbersFilter().FilterBy(filteringStrategy, numbers);
+    List<int> result = new Filter().FilterBy(filteringStrategy, numbers);
 
     Print(result);
     userInput = utilityFunctions.GetInput();
@@ -55,10 +55,10 @@ public class FilteringStrategySelector {
     }
 }
 
-public class NumbersFilter {
-    public List<int> FilterBy(Func<int, bool> predicate, List<int> numbers) {
+public class Filter {
+    public List<T> FilterBy<T>(Func<T, bool> predicate, List<T> numbers) {
 
-        var result = new List<int>();
+        var result = new List<T>();
 
         foreach (var number in numbers) {
             if (predicate(number)) {
