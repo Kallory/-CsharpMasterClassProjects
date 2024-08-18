@@ -1,26 +1,19 @@
 ﻿var numbers = new List<int> { 10, 12, -100, 55, 17, 22};
+var filteringStrategySelector = new FilteringStrategySelector();
+var utilityFunctions = new UtilityFunctions();
 
-static string GetInput() {
-    Console.WriteLine(@"Select filter:
-    Even
-    Odd
-    Positive");
-
-    var userInput = Console.ReadLine();
-    return userInput;
-}
 
 Print(numbers);
 
 
 
-string userInput = GetInput();
+string userInput = utilityFunctions.GetInput();
 while (string.Equals(userInput, "exit") == false) {
     var filteringStrategy = new FilteringStrategySelector().Select(userInput);
     List<int> result = new NumbersFilter().FilterBy(filteringStrategy, numbers);
 
     Print(result);
-    userInput = GetInput();
+    userInput = utilityFunctions.GetInput();
 }
 
 
@@ -39,6 +32,8 @@ public class FilteringStrategySelector {
         ["Positive"] = numbers => numbers > 1,
 
     };
+
+    public IEnumerable<string> FilteringStrategyNames => _filteringStrategies.Keys;
 
     public Func<int, bool> Select(string filterType) {
         if (!_filteringStrategies.ContainsKey(filterType)) {
@@ -73,6 +68,23 @@ public class NumbersFilter {
 
         return result;
 
+    }
+}
+
+public class UtilityFunctions {
+    FilteringStrategySelector _filteringStrategySelector;
+
+    public UtilityFunctions() {
+        this._filteringStrategySelector = new FilteringStrategySelector();
+    }
+
+
+    public string GetInput() {
+        Console.WriteLine("Select filter:");
+        Console.WriteLine(string.Join(Environment.NewLine, _filteringStrategySelector.FilteringStrategyNames));
+
+        var userInput = Console.ReadLine();
+        return userInput;
     }
 }
 
